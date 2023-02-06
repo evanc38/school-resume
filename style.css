@@ -1,0 +1,154 @@
+.myFace{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: #f7ffff;
+    top: 0;
+    overflow: scroll;
+}
+
+.navBar{
+    text-align: center;
+    background-color: rgb(173, 173, 173);
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+.menu{
+    background-color: rgb(173, 173, 173);
+    color: black;
+    border-radius: 0px;
+    font-size: 16px;
+    padding: 20px;
+    margin: -2px;
+    text-decoration: none;
+}
+
+.menu:hover{
+    background-color: rgb(54, 54, 54);
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*FIX*/
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 7%;
+}
+
+.col{
+    padding: 12.5px;
+    align-self: center;
+}
+
+.row {
+    display: flex;
+    
+}
+
+.column {
+    float: left;
+    padding-left:  10px;
+}
+
+
+.nameText{
+    text-align: center;
+}
+
+.lin{
+    border-left: 2px solid black;
+    opacity: 0.2;
+    height: 50vh;
+}
+
+.para{
+    font-size: larger;
+    display: table;
+    margin: auto;
+    width: 600px;
+    
+}
+
+.titleText{
+    display: table;
+    margin: auto;
+    width: 600px;
+}
+
+.row{
+    display: table;
+    margin: auto;
+    width: 600px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(173, 173, 173);
+    color: black;
+    text-align: center;
+}
+.progBar{
+    height: 24px;
+    width: 400px;
+}
+
+.progBarP{
+    font-size: 20px;
+    min-width: 100px;
+}
+
+.creds{
+    text-align: center;
+}
+
+.ints{
+    
+    display: table;
+    margin: auto;
+    width: 600px;
+
+}
+
+.eduMark{
+    background-color: rgb(192, 190, 190);
+}
+
+*{
+    /* outline: 1px dashed grey */
+}
+
+
+
+
+
+@media screen and (max-width: 1038px){
+    .lin{
+        border-top: 2px solid black;
+        opacity: 0.2;
+        height: 0px;
+        width: 90vh;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; /*FIX*/
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 8%;
+    }
+}
